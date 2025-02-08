@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-// import './trendingPost.css'
+import './trendingPost.css'
 function TrendingPost({item, index}:{item:{_id:string; title: string; author:string};index:number;}) {
 
   return (<li>

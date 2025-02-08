@@ -1,11 +1,12 @@
 import React from 'react'
+import './preloader.css';
 
-function Preloader() {
+export default function Preloader() {
   return (
     <div id="preloader">
       
     </div>
-  )
-}
+  );
+};
 
-export default Preloader
+
